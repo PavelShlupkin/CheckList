@@ -1,0 +1,77 @@
+#CheckList-form {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#CheckList-form input {
+    height: 30px;
+    width: 80%;;
+    padding-left: 10px;
+    background-color: rgb(40, 212, 63);
+    border: none;
+
+}
+
+#CheckList-form button {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(40, 212, 63);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 15px;
+}
+
+.done input[type=text] {
+    color: #e91313;
+    text-decoration: line-through;
+}
+
+
+.del-btn {
+    border: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding-bottom: 5px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+li {
+    width: 80%;
+    background-color: rgb(40, 212, 63);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+li input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+
+li input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    flex-grow: 2;
+}
+
+li input[type="text"]:focus {
+    background-color: rgb(199, 85, 85);
+    color: #37392E;
+}
+
+li button {
+    justify-content: flex-end;
+}
+
+ul {
+    padding: 0px;
+}

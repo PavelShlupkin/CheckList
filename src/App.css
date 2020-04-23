@@ -1,0 +1,8 @@
+.App {
+  margin: 10px auto;
+  padding: 20px;
+  width: 30%;
+  min-height: 80vh;
+  background-color: #000000;
+  border-radius: 15px;
+}
